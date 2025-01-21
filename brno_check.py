@@ -45,7 +45,7 @@ def process_business_numbers(csv_file, api_key, ouput_file):
 
 if __name__=="__main__":
     API_KEY = f"hMT5bvJkHQNNiHWuh1rE3Bb1xHtOE6vdjpe%2FJEpLO7OoHq3KMU1lBQ8uYTMOjf3mRhx2IOwQyYwqueG60eEcVQ%3D%3D"
-    INPUT_CSV ="(CSV 파일 경로)"
+    INPUT_CSV ="/Users/seinmyeong/Desktop/data/business_numbers.csv"
     OUTPUT_EXCEL = "business_status_results.xlsx"
     
     process_business_numbers(INPUT_CSV, API_KEY, OUTPUT_EXCEL)
